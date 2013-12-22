@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" type="text/css" href="../../info.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="../../print.css" media="print">
+  <link rel="stylesheet" type="text/css" href="../../js/jplayer/jplay.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  
+<title>La recherche sur l'Internet</title>
+	</head>
+<body>
+<div id="conteneur">
+<?php 
+	require ("./top.inc.php"); 
+	require ("../../dewplayer.inc.php");
+?>
+<div id="texte">
+<h2> Se faire aider pour trouver les informations sur l'Internet</h2>
+<h3>Où est le bibliothécaire?</h3>
+
+<div class="info"><p>La recherche d'informations sur l'Internet pose au moins trois problèmes:</p>
+<ol>
+	<li>La quantité d'informations disponibles est colossale</li>
+	<li>On ne sait pas sur quel site aller pour trouver une information intéressante</li>
+	<li>N'importe qui peut venir déposer des informations sur l'Internet; même des informations fausses</li>
+</ol>
+<p>Dans une bibliothèque classique, on peut faire appel au bibliothécaire.</p>
+<p>Mais personne n'est chargé du rôle de bibliothécaire sur l'Internet.</p>
+</div>
+<div class="attention" style="border: 1px solid black; padding: 1em 1em 1em 5em;">Un moteur de recherche est un programme
+d'ordinateur capable de trouver des informations parmi un grand nombre
+de documents de différents types</div>
+<div class="info"><p>Un certain nombre de sites web proposent un moteur de recherche. Parmi les moteurs de recherche les plus connus<br>
+</p>
+<p><a href="http://www.altavista.com"><img style="border: 0px solid ; width: 170px; height: 84px;" alt="Altavista" src="images/altavista.png"></a>
+	<a href="http://www.yahoo.com/"><img style="border: 0px solid ; width: 170px; height: 63px;" alt="Yahoo" src="images/yahoo.png"></a>
+	<a href="http://www.google.com"><img style="border: 0px solid ; width: 150px; height: 75px;" alt="Google" src="images/google.png"></a>&nbsp;
+	<a href="http://www.ecosia.org/"><img style="border: 0px solid ; width: 136px; height: 61px;" alt="Ecosia" src="images/ecosia.png"></a>&nbsp;
+	<a href="http://bing.com/"><img style="border: 0px solid ; width: 150px; height: 80px;" alt="Bing" src="images/bing.png"></a> ...</p>
+</div>
+<h3>Comment les moteurs de recherche... cherchent</h3>
+	<section>
+		<div id="audio-slideshow" class="audio-slideshow" data-audio="images/comment/01.mp3" data-audio-duration="144">
+			<div class="audio-slides">
+				<img src="images/comment/comment0.jpg" alt="img" data-thumbnail="images/comment/tb/comment0.jpg" data-slide-time="0">
+				<img src="images/comment/comment1.jpg" alt="img" data-thumbnail="images/comment/tb/comment1.jpg" data-slide-time="35">
+				<img src="images/comment/comment2.jpg" alt="img" data-thumbnail="images/comment/tb/comment2.jpg" data-slide-time="45">
+				<img src="images/comment/comment3.jpg" alt="img" data-thumbnail="images/comment/tb/comment3.jpg" data-slide-time="53">
+				<img src="images/comment/comment4.jpg" alt="img" data-thumbnail="images/comment/tb/comment4.jpg" data-slide-time="64">
+				<img src="images/comment/comment5.jpg" alt="img" data-thumbnail="images/comment/tb/comment5.jpg" data-slide-time="81">
+				<img src="images/comment/comment6.jpg" alt="img" data-thumbnail="images/comment/tb/comment6.jpg" data-slide-time="96">
+				<img src="images/comment/comment7.jpg" alt="img" data-thumbnail="images/comment/tb/comment7.jpg" data-slide-time="105">
+				<img src="images/comment/comment8.jpg" alt="img" data-thumbnail="images/comment/tb/comment8.jpg" data-slide-time="115">
+			</div>
+			<div class="audio-control-interface">
+				<div class="play-pause-container">
+					<a href="javascript:;" class="audio-play">Play</a>
+					<a href="javascript:;" class="audio-pause">Pause</a>
+				</div>
+				<div class="time-container">
+					<span class="play-time"></span> / <span class="total-time"></span>
+				</div>
+				<div class="timeline">
+					<div class="timeline-controls"></div>
+					<div class="playhead"></div>
+				</div>
+				<div class="jplayer"></div>
+			</div>
+		</div>
+		</section>
+		
+<!-- <ul id="slider1">
+	<li>Explications en audio pour les diapositives 1 à 3: <?php dewplay("images/comment/1-3.mp3");?><img src="images/comment/comment0.jpg"></li>
+	<li><img src="images/comment/comment1.jpg"></li>
+	<li><img src="images/comment/comment2.jpg"></li>
+	<li>Explications en audio pour les diapositives 4 à 9: <?php dewplay("images/comment/4-9.mp3");?><img src="images/comment/comment3.jpg"></li>
+	<li><img src="images/comment/comment4.jpg"></li>
+	<li><img src="images/comment/comment5.jpg"></li>
+	<li><img src="images/comment/comment6.jpg"></li>
+	<li><img src="images/comment/comment7.jpg"></li>
+	<li><img src="images/comment/comment8.jpg"></li>
+</ul> -->
+<div class="info">
+	<p>Une vidéo (en anglais, mais des sous-titres sont possibles en français) qui explique le fonctionnement du moteur de recherche Google: <a href="http://youtu.be/BNHR6IQJGZs">http://youtu.be/BNHR6IQJGZs</a></p>
+</div>
+<p>Quand tu te sens prêt(e) à répondre à des questions sur le contenu de cette page, passe à la page suivante.<?php include ("../../suivant.inc.php"); ?> </p>
+</div>
+<?php include ("../../pied.inc.php");
+?> 
+</div>
+
+<script type="text/javascript" src="../../js/jplayer/jquery.jplayer.js"></script>
+<script type="text/javascript" src="../../js/jplayer/jquery.audioslideshow.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.1.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#audio-slideshow').audioSlideshow();
+	})
+</script>
+
+
+</body>
+</html>

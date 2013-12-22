@@ -1,0 +1,30 @@
+.btn {
+font-size: 10px;
+text-align: center;
+padding-left: 10px; 
+padding-right: 10px;
+color: White;
+background-color: #0033FF;
+text-decoration: none;
+}
+
+a.btn:hover {
+background-color: #99CCFF;
+color: Yellow;
+/* background-image: url(../images/fndbtn.jpg); */
+}
+
+.bigbtn {
+padding-left: 10px;
+padding-right: 10px;
+font-size: 10px;
+font-weight: bold;
+color: white;
+background-color: #0033ff;
+}
+
+a.bigbtn:hover {
+background-color: #99CCFF;
+color: Yellow;
+/* background-image: url(../images/fndbigbtn.jpg); */
+}

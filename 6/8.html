@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <?php //anti-moz ?>
+    <meta name="generator" content="HTML Tidy for Linux/x86 (vers 1 September 2005), see www.w3.org">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" type="text/css" href="../../info.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="../../print.css" media="print">
+    <title>
+      Les programmes d'ordinateur
+    </title>
+  </head>
+  <body>
+    <div id="conteneur">
+      <?php include ("./top.inc.php");
+                        ?>
+      <div id="texte">
+        <h2>
+          Qu'est-ce qu'un programme d'ordinateur?
+        </h2>
+        <div class="info">
+          <p>
+            Un programme d'ordinateur est une (longue) suite d'instructions que peut comprendre l'unité centrale de
+            l'ordinateur.
+          </p>
+          <p>
+            Ces instructions extrêmement simples qui constituent les programmes sont du type:
+          </p>
+          <ul>
+            <li>stocker un nombre dans une case de la mémoire
+            </li>
+            <li>déplacer le contenu d'une case de la mémoire vers une autre case
+            </li>
+            <li>comparer deux nombres et exécuter une instruction précise selon le résultat de la comparaison
+            </li>
+            <li>réaliser des opérations mathématiques simples sur les nombres qui se trouvent dans la mémoire
+            </li>
+            <li>se déplacer à un autre endroit du programme et continuer l'exécution à partir de ce point
+            </li>
+            <li>...
+            </li>
+          </ul>
+        </div>
+        <p class="questions">
+          Vous vous moquez de moi, c'est clair... Ce n'est pas avec des instructions pareilles qu'un ordinateur
+          deviendra capable de diriger une sonde spatiale.
+        </p>
+        <p class="reponses">
+          Et pourtant, même les ordinateurs qui dirigent les sondes spatiales ne disposent pas de plus d'instructions.
+          Voyons par une petite analogie comment c'est possible.
+        </p>
+        <div class="info">
+          <p>
+            Les microprocesseurs les plus simples ne connaissent ni la multiplication, ni la division. Ils sont
+            pourtant capables de réaliser des multiplications. Voyons comment un tel processeur pourrait mulitiplier un
+            nombre A par un autre nombre B.
+          </p>
+          <div class="encartdroit">
+            <h4>
+              Réalisation
+            </h4>En utilisant les cases nommées ci-dessous, applique la méthode indiquée à gauche pour réaliser la
+            multiplication 7 x 4
+            <form action="" name="form1" id="form1">
+              <div class="encartdroit">
+                Exécute les instructions du programme, sans réfléchir.<br>
+                Lorsque la valeur dans une case change, supprime l'ancien contenu et remplace par le nouveau contenu.
+              </div>
+              <p>
+                A <input maxlength="3" size="3" name="A">
+              </p>
+              <p>
+                B <input maxlength="3" size="3" name="B">
+              </p>
+              <p>
+                R <input maxlength="3" size="3" name="R">
+              </p>
+            </form>
+          </div>
+          <h4>
+            Recette possible
+          </h4>
+          <ol>
+            <li>Mettre le premier nombre dans une case notée <strong>A</strong>
+            </li>
+            <li>Mettre le deuxième nombre dans une case notée <strong>B</strong>
+            </li>
+            <li>Préparer une troisième case notée <strong>R</strong> et y mettre la valeur <strong>0</strong>
+            </li>
+            <li>Si la valeur de <strong>B</strong> est <strong>0</strong>, alors aller à l'instruction
+            <strong>8</strong>
+            </li>
+            <li>Ajouter la valeur de <strong>A</strong> dans la case <strong>R</strong>
+            </li>
+            <li>Soustraire <strong>1</strong> à la valeur de <strong>B</strong>
+            </li>
+            <li>Retourner à l'instruction <strong>4</strong>
+            </li>
+            <li>Ecrire la valeur de <span style="font-weight: bold;">R</span> à l'écran
+            </li>
+          </ol>
+        </div>
+        <p class="questions">
+          Dites, je ne comprends rien à votre petit jeu. Vous pouvez m'aider un peu?
+        </p>
+        <p class="reponses">
+          Je vous assure que ce n'est pourtant pas si compliqué. L'animation ci-dessous présente les opérations
+          réalisées pour multiplier 6 par 3. Cliquez sur l'image pour la faire avancer.
+        </p><object type="application/x-shockwave-flash" data="images/multiplication.swf" height="240" width="576">
+          <param name="movie" value="images/multiplication.swf">
+          <param name="wmode" value="transparent">
+          <p>
+            Vous devez disposer du plugin Flash pour voir cette animation
+          </p>
+        </object>
+        <p>
+          Quand tu as constaté qu'il n'y a pas de bug dans cette page, passe à la page
+          suivante.<?php include ($_SERVER['DOCUMENT_ROOT']."suivant.inc.php");
+                                        ?>
+        </p>
+      </div><?php include ("../../pied.inc.php");
+                        ?>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <link rel="stylesheet" type="text/css" href="../../info.css" media="screen">
+  <link rel="stylesheet" type="text/css" href="../../print.css" media="print">
+  <link rel="stylesheet" type="text/css" href="../../js/jplayer/jplay.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+  <style type="text/css">
+  .audio-slideshow {
+	width: 790px;
+	height: 670px;
+	position: relative;
+	margin: 0 auto;
+}
+  </style>
+  <title>Introduction à l'Internet</title>
+</head>
+<body>
+<div id="conteneur">
+<?php 
+require ("./top.inc.php"); 
+require ("../../dewplayer.inc.php");
+?>
+<div id="texte">
+<h2>Les origines de l'Internet</h2>
+<h3>Les années '60</h3>
+<div class="info">
+<h4>a) Les chercheurs universitaires</h4>
+<p>Dès le début des années '60, plusieurs groupes de scientifiques
+s'intéressent à la question de la communication entre ordinateurs. A
+l'époque, ces machines étaient souvent très différentes les unes des
+autres et la possibilité de communication entre-elles restait une
+question difficile.</p>
+<div class="imagedroite micro"><img style="width: 300px; height: 246px;" alt="Spoutnik 1" src="images/spoutnik.jpg"><br>
+Origine de l'image:<br>
+<a href="http://fr.wikipedia.org/wiki/Spoutnik_1">http://fr.wikipedia.org/wiki/Spoutnik_1</a></div>
+<h4>b) Les militaires américains</h4>
+<p>À la même époque, les militaires américains se trouvent confrontés à la supériorité technologique de l'URSS qui avait envoyé le premier
+satellite artificiel dans l'espace: <strong>Spoutnik 1</strong>.</p>
+
+<p>Les États-Unis se trouvaient à la portée d'une attaque par des missiles nucléaires soviétiques. Ils devaient consolider leur
+système de défense.</p>
+<p>Pour cela, la mise au point de méthodes de communication efficaces entre les différents centres militaires -et leurs ordinateurs- répartis sur le territoire
+devenait très importante.</p>
+<p>Cette mission est confiée à la DARPA (<i>Defense Advanced Research Projects Agency</i>) -alias "<span style="font-style: italic;">Agence pour les Projets de Recherche Avancée de Défense</span>".</p>
+<p>Parmi les réalisations de cette Agence gouvernementale, la mise au point d'un système de réseau dans lequel les ordinateurs reliés peuventt continuer à transmettre des informations, même si l'un des composants est détruit. Ce réseau est appelé <strong>ARPANET</strong>.</p>
+</div>
+<h3 style="clear: both;">ARPANET</h3>
+<h4>a) Le fonctionnement d'ARPANET</h4>
+	<section>
+			<div id="audio-slideshow" class="audio-slideshow" data-audio="images/darpa/01.mp3" data-audio-duration="206">
+				<div class="audio-slides">
+					<img src="images/darpa/darpa-0.png" alt="img" data-thumbnail="images/darpa/tb/darpa-0.png" data-slide-time="0">
+					<img src="images/darpa/darpa-1.png" alt="img" data-thumbnail="images/darpa/tb/darpa-1.png" data-slide-time="73">
+					<img src="images/darpa/darpa-2.png" alt="img" data-thumbnail="images/darpa/tb/darpa-2.png" data-slide-time="92">
+					<img src="images/darpa/darpa-3.png" alt="img" data-thumbnail="images/darpa/tb/darpa-3.png" data-slide-time="102">
+					<img src="images/darpa/darpa-4.png" alt="img" data-thumbnail="images/darpa/tb/darpa-4.png" data-slide-time="120">
+					<img src="images/darpa/darpa-5.png" alt="img" data-thumbnail="images/darpa/tb/darpa-5.png" data-slide-time="136">
+					<img src="images/darpa/darpa-6.png" alt="img" data-thumbnail="images/darpa/tb/darpa-6.png" data-slide-time="145">
+					<img src="images/darpa/darpa-7.png" alt="img" data-thumbnail="images/darpa/tb/darpa-7.png" data-slide-time="157">
+					<img src="images/darpa/darpa-8.png" alt="img" data-thumbnail="images/darpa/tb/darpa-8.png" data-slide-time="180">
+					<img src="images/darpa/darpa-9.png" alt="img" data-thumbnail="images/darpa/tb/darpa-9.png" data-slide-time="185">
+					<img src="images/darpa/darpa-10.png" alt="img" data-thumbnail="images/darpa/tb/darpa-10.png" data-slide-time="187">
+					<img src="images/darpa/darpa-11.png" alt="img" data-thumbnail="images/darpa/tb/darpa-11.png" data-slide-time="189">
+					<img src="images/darpa/darpa-12.png" alt="img" data-thumbnail="images/darpa/tb/darpa-12.png" data-slide-time="191">
+					<img src="images/darpa/darpa-13.png" alt="img" data-thumbnail="images/darpa/tb/darpa-13.png" data-slide-time="193">
+					<img src="images/darpa/darpa-14.png" alt="img" data-thumbnail="images/darpa/tb/darpa-14.png" data-slide-time="195">
+					<img src="images/darpa/darpa-15.png" alt="img" data-thumbnail="images/darpa/tb/darpa-15.png" data-slide-time="197">
+					<img src="images/darpa/darpa-16.png" alt="img" data-thumbnail="images/darpa/tb/darpa-16.png" data-slide-time="200">
+				</div>
+				<div class="audio-control-interface">
+					<div class="play-pause-container">
+						<a href="javascript:;" class="audio-play">Play</a>
+						<a href="javascript:;" class="audio-pause">Pause</a>
+					</div>
+					<div class="time-container">
+						<span class="play-time"></span> / <span class="total-time"></span>
+					</div>
+					<div class="timeline">
+						<div class="timeline-controls"></div>
+						<div class="playhead"></div>
+					</div>
+					<div class="jplayer"></div>
+				</div>
+			</div>
+		</section>
+<!--
+<ul id="slider1">
+	<li>Explications en audio: <?php dewplay("images/darpa/1.mp3");?><img src="images/darpa/darpa0.jpg"></li>
+	<li>Explications en audio: <?php dewplay("images/darpa/2.mp3");?><img src="images/darpa/darpa1.jpg" style="height:600px"></li>
+	<li>Explications en audio: <?php dewplay("images/darpa/3.mp3");?><img src="images/darpa/darpa2.jpg" style="height:600px"></li>
+	<li>Explications en audio: <?php dewplay("images/darpa/4.mp3");?><img src="images/darpa/darpa3.jpg" style="height:600px"></li>
+	<li>Explications en audio pour les trois diapos suivantes: <?php dewplay("images/darpa/567.mp3");?><img src="images/darpa/darpa4.jpg" style="height:600px"></li>
+	<li><img src="images/darpa/darpa5.jpg" style="height:600px"></li>
+	<li><img src="images/darpa/darpa6.jpg" style="height:600px"></li>
+	<li>Explications en audio pour les trois diapos suivantes: <?php dewplay("images/darpa/8910.mp3");?><img src="images/darpa/darpa7.jpg" style="height:600px"></li>
+	<li><img src="images/darpa/darpa8.jpg" style="height:600px"></li>
+	<li><img src="images/darpa/darpa9.jpg" style="height:600px"></li>
+	<li><img src="images/darpa/darpa10.jpg" style="height:600px"></li>
+	<li>Explications en audio: <?php dewplay("images/darpa/12.mp3");?><img src="images/darpa/darpa11.jpg" style="height:600px"></li>
+	<li><img src="images/darpa/darpa12.jpg" style="height:600px"></li>
+	<li><img src="images/darpa/darpa13.jpg" style="height:600px"></li>
+	<li><img src="images/darpa/darpa14.jpg" style="height:600px"></li>
+	<li><img src="images/darpa/darpa15.jpg" style="height:600px"></li>
+	<li><img src="images/darpa/darpa16.jpg" style="height:600px"></li>
+</ul> -->
+<div class="info">
+<p>Dans un réseau centralisé, un ordinateur "maître" serait connecté à
+tous les sites militaires importants. Il recevrait et enverrait les
+informations.</p>
+<p>Mais, en cas d'attaque et de destruction de cet ordinateur "maître", tout le système de défense du pays est paralysé.<br>
+</p>
+<p>Dans le système baptisé <strong>ARPANET</strong>
+(c'est-à-dire le réseau de la <strong>DARPA</strong>), il n'y a pas d'ordinateur "maître".</p>
+<p>Les paquets d'informations circulent sur le réseau vers leur destination sans connaître à l'avance le chemin à suivre. Si l'un des ordinateurs du réseau se trouve détruit ou inutilisable, les paquets d'informations empruntent un autre chemin.</p>
+<p>Si la communication entre les ordinateurs <strong>A</strong> et <strong>X</strong> est rompue à cause de la destruction de <strong>B</strong>, les
+informations peuvent continuer à circuler sur le réseau en passant par les ordinateurs <strong>X</strong> ou <strong>Y</strong> (ou d'autres).</p>
+<p>La <strong>DARPA</strong> va utiliser des centaines de chercheurs, scientifiques et militaires pour travailler sur la connexion entre ordinateurs.</p>
+</div>
+<div class="info">
+<h4>b) La première connexion de tous les temps</h4>
+<p><div class="imagedroite micro"><img style="width: 261px; height: 350px;" alt="Stanford - Los Angeles" src="images/stanfordUCLA.jpg"><br>Image <a href="wikimapia.org">Wikimapia.org</a></div>La première connexion à longue distance entre deux ordinateurs est réalisée par des chercheurs de la DARPA en <strong>1969</strong>. Elle est
+organisée en Californie, entre un ordinateur placé à l'université de <strong>Los Angeles</strong> (UCLA) et un autre situé à l'Université de <strong>Stanford</strong>.</p>
+<p>Le premier message envoyé sur le réseau devait être le mot <strong>LOGIN</strong>. Une connexion téléphonique était prévue, en plus...</p>
+<ul>
+  <li><span style="font-weight: bold;">Los Angeles</span>: nous avons envoyé <strong>L</strong>; avez-vous reçu?</li>
+  <li><span style="font-weight: bold;">Stanford</span>: oui, nous avons reçu <strong>L</strong></li>
+  <li><span style="font-weight: bold;">Los Angeles</span>: nous avons envoyé <strong>O</strong>; avez-vous reçu?</li>
+  <li><span style="font-weight: bold;">Stanford</span>: oui, nous avons reçu <strong>O</strong></li>
+  <li><strong>Los Angeles</strong> frappe le <strong>G</strong></li>
+  <li><strong>CRRRASSSHHHHH</strong></li>
+</ul>
+<p class="questions">Et on en est resté là, ou bien ils ont fait mieux après?</p>
+<p class="reponses">Heureusement, le système a été nettement amélioré. Jusqu'à organiser un réseau contenant plusieurs dizaines d'ordinateurs.<br />
+Et qui fonctionnait.</p>
+</div>
+<p class="interro" style="clear: both;">A la prochaine page, on te demandera de répondre aux
+questions suivantes:</p>
+<ol>
+  <li>Pourquoi l'armée américaine était-elle motivée à réussir la mise en réseau de ses ordinateurs ?</li>
+  <li>Pourquoi ce réseau est-il fragile, au départ&nbsp;?</li>
+  <li>Quelle a été la première expérience de chat sur un réseau d'ordinateurs?</li>
+  <li>Quel est le système imaginé par la <strong>DARPA</strong> pour résoudre le problème de fragilité du réseau&nbsp;?</li>
+</ol>
+<p>Quand tu penses pouvoir donner une réponse à chacune de ces questions, passe à la page suivante.<?php include ("../../suivant.inc.php"); ?></p>
+</div>
+<?php include ("../../pied.inc.php"); ?> </div>
+
+<script type="text/javascript" src="../../js/jplayer/jquery.jplayer.js"></script>
+<script type="text/javascript" src="../../js/jplayer/jquery.audioslideshow.js"></script>
+<script src="http://code.jquery.com/jquery-migrate-1.1.1.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$('#audio-slideshow').audioSlideshow();
+	})
+</script>
+
+</body>
+</html>

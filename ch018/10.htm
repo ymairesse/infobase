@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>Les feuilles de styles li&eacute;es</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../styleisnd.css" type="text/css">
+
+<script language="JavaScript">
+/*
+SCRIPT EDITE SUR L'EDITEUR JAVASCRIPT
+http://www.editeurjavascript.com
+*/
+Modif = new Date(document.lastModified);
+Jour = new Array;
+Jour[0] = "Dimanche";
+Jour[1] = "Lundi";
+Jour[2] = "Mardi";
+ Jour[3] = "Mercredi";
+Jour[4] = "Jeudi";
+Jour[5] = "Vendredi";
+Jour[6] = "Samedi";
+Mois = new Array;
+Mois[0] = "Janvier" ;
+Mois[1] = "F&eacute;vrier" ;
+Mois[2] = "Mars" ;
+Mois[3] = "Avril";
+Mois[4] = "Mai" ;
+Mois[5] = "Juin" ;
+Mois[6] = "Juillet" ;
+Mois[7] = "Ao&ucirc;t";
+Mois[8] = "Septembre";
+Mois[9] = "Octobre";
+Mois[10] = "Novembre";
+Mois[11] ="D&eacute;cembre";
+DateModif = " " + Jour[Modif.getDay()] + " " + Modif.getDate() + " " + Mois[Modif.getMonth()] + " " +  Modif.getFullYear();
+</script>
+<link rel="stylesheet" href="../../styleisnd.css" type="text/css">
+</head>
+
+<body bgcolor="#FFFFFF" background="../images/10.gif" bgproperties="fixed">
+<table width="650" border="0" cellspacing="10" align="center">
+  <tr> 
+    <td width="48" valign="top" align="center"><strong>10</strong></td>
+    <td colspan="2"> 
+      <h2>Les feuilles de styles li&eacute;es</h2>
+    </td>
+  </tr>
+  <tr> 
+    <td width="48" valign="top" align="center" height="40"><img src="../../images/info.gif" width="32" height="32"></td>
+    <td colspan="2"> 
+      <p>L'utilisation des directives de styles incorpor&eacute;es au document 
+        HTML ne pr&eacute;sente pas beaucoup d'int&eacute;r&ecirc;t.</p>
+      <p>Par contre, l'ensemble des directives donn&eacute;es peut &ecirc;tre 
+        group&eacute; dans un document qui ne sert qu'&agrave; contenir des directives 
+        de styles: on parle alors d'une feuille de styles. Les feuilles de styles 
+        li&eacute;es sont des outils extr&ecirc;mement puissants.</p>
+      <p>Il suffit d'&eacute;tablir un lien entre un document HTML et une feuille 
+        de style pour que toutes les directives soient appliqu&eacute;es &agrave; 
+        la page HTML.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="48" valign="top" align="center"><img src="../../images/info.gif" width="32" height="32"></td>
+    <td colspan="2"> 
+      <p>L'&eacute;tablissement d'une feuille de style est tr&egrave;s simple: 
+        il suffit de confectionner un document qui contient exclusivement:</p>
+      <ul>
+        <li>une balise &lt;style&gt;</li>
+        <li>un certain nombre de directives de style</li>
+        <li>une balise &lt;/style&gt;</li>
+      </ul>
+      <p>Un tel document peut &ecirc;tre r&eacute;dig&eacute; &agrave; l'aide 
+        de n'importe quel logiciel capable d'enregistrer un document en mode texte. 
+      </p>
+      <p>La feuille de style se reconna&icirc;t &agrave; son extension &quot;CSS&quot;.</p>
+      <p>La feuille de style peut &eacute;galement s'&eacute;tablir &agrave; l'aide 
+        du logiciel Frontpage.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="48" valign="top" align="center" height="20"><img src="../../images/girl1.gif" width="48" height="48"></td>
+    <td colspan="2" height="20">
+      <h3>Fabriquer une feuille de style avec Frontpage</h3>
+      <p>Dans le menu &quot;Fichier&quot;, s&eacute;lectionner la commande &quot;Nouveau&quot; 
+        et l'option &quot;Page&quot;.</p>
+      <p><img src="images/nouveau.gif" width="207" height="194" align="right">Dans 
+        la bo&icirc;te de dialogue, s&eacute;lectionner l'onglet &quot;Feuilles 
+        de style&quot;.</p>
+      <p>Pour fabriquer une nouvelle feuille de style, choisir &quot;Feuille de 
+        style Normal&quot;.</p>
+      <p>Sur cette page, il suffit de &quot;coller&quot; les directives de styles 
+        &quot;coup&eacute;es&quot; du document de travail. Attention: seules les 
+        directives de style doivent &ecirc;tre transf&eacute;r&eacute;es; les 
+        balises &lt;style&gt; et &lt;/style&gt; sont int&eacute;gr&eacute;es automatiquement 
+        dans la feuille de style.</p>
+      <p>Enregistrer ensuite cette feuille de style sous n'importe quel nom, avec 
+        l'extension CSS.</p>
+      <p> On peut ensuite fermer ce document (Fichier &gt; Fermer).</p>
+      </td>
+  </tr>
+  <tr> 
+    <td width="48" valign="top" align="center" height="20"><img src="../../images/boy1.gif" width="48" height="48"></td>
+    <td colspan="2" height="20">
+      <h3>Lier une feuille de style avec Frontpage</h3>
+      <p><img src="images/ajouter.gif" width="359" height="292" align="right">Le 
+        document de travail est maintenant priv&eacute; de tous les styles qui 
+        ont &eacute;t&eacute; d&eacute;finis. Nous allons &eacute;tablir la liaison 
+        avec la feuille de style.</p>
+      <p>En mode &quot;Normal&quot;, s&eacute;lectionner la commande &quot;Liens 
+        de feuilles de style...&quot; dans le menu &quot;Format&quot;.</p>
+      <p>Dans la bo&icirc;te de dialogue suivante, cliquer sur &quot;Ajouter&quot; 
+        et rechercher la feuille de style enregistr&eacute;e pr&eacute;c&eacute;demment.</p>
+      <p>D&egrave;s que le lien est &eacute;tabli, la pr&eacute;sentation du document 
+        est mise &agrave; jour.</p>
+      <p>Dans le document HTML, on trouve le lien avec la feuille de style.</p>
+      <p align="center"><img src="images/link.gif" width="432" height="86"></p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="48" valign="top" align="center" height="20"><img src="../../images/girl1.gif" width="48" height="48"></td>
+    <td colspan="2" height="20"> 
+      <p><img src="images/liens.gif" width="360" height="240" align="right" alt="Une feuille de style pour plusieurs pages HTML">Modifie 
+        quelques directives de la feuille de style et observe les effets de cette 
+        modification sur le document de travail.</p>
+      <p>Lie cette feuille de style &agrave; un deuxi&egrave;me document quelconque. 
+        Observe l'effet.</p>
+      <p>Lie cette feuille de style &agrave; plusieurs pages d'un m&ecirc;me site 
+        web de mani&egrave;re &agrave; lui conf&eacute;rer une certaine unit&eacute; 
+        graphique.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="48" valign="top" align="center" height="20">&nbsp;</td>
+    <td colspan="2" height="20"> 
+      <hr>
+    </td>
+  </tr>
+  <tr> 
+    <td width="48" valign="top" align="center">&nbsp;</td>
+    <td colspan="2">
+      <table width="100%" border="0">
+        <tr> 
+          <td width="*">Quand tu as bien compris l'nt&eacute;r&ecirc;t de la liaison 
+            des feuilles de style, passe &agrave; la page suivante.</td>
+          <td width="40"> 
+            <div align="right"><a href="11.htm"><img src="../../images/bbnext.gif" width="30" height="27" border="0" class="lien"></a></div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<div id="Layer1" style="position:absolute; width:33px; height:11px; z-index:1; left: 8px; top: 157px; border: 1px none #000000; visibility: hidden; overflow: hidden"><a href="http://www.ovh.net?compte=9366"><img src="http://www.ovh.net/cgi-bin/compteur.pl?compte=9366&full=1&url=<!--#echo var='HTTP_REFERER'-->" hspace="0" vspace="0" border="0"></a></div>
+<p class="micro">Derni&egrave;re modification 
+  <script language="JavaScript">document.write(DateModif)</script></p>
+</body>
+</html>

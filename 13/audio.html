@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Comment les moteurs de recherche cherchent</title>
+  <link rel="stylesheet" type="text/css" href="../../js/style/audio.css">
+  <!--[if lt IE 9]>
+    <script type="text/javascript" src="../3rd-part/html5.js"></script>
+    <script type="text/javascript" src="../3rd-part/mediaelement.js"></script>
+    <style type="text/css">
+      p#playerSelector { display: none; }
+    </style>
+  <![endif]-->
+  <script type="text/javascript" src="../../js/timesheets.js"></script>
+  <script type="text/javascript" src="../../js/timeline.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../js/style/timeline.css">
+  <style type="text/css">
+  #media {
+	  position: relative;
+	  }
+	#media div {
+		position: absolute;
+		top: 4em;
+		}
+	#timevalue {display: block}
+  </style>
+</head>
+<body>
+<p>Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla  </p>
+<p>Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla  </p>
+<p>Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla Bla bla bla bla  </p>
+<div class="timeline">
+	<div id="media"
+           data-timecontainer = "excl"
+           data-mediasync     = "audio"
+           data-dur           = "2:21"
+           data-first         = "first.click"
+           data-prev          = "prev.click"
+           data-next          = "next.click"
+           data-last          = "last.click">
+        <div id="section1" data-begin="0:00"><img src="images/comment/moteurs-1.png" alt="moteur1"></div>
+        <div id="section2" data-begin="0:35"><img src="images/comment/moteurs-2.png" alt="moteur1"></div>
+        <div id="section3" data-begin="0:44"><img src="images/comment/moteurs-3.png" alt="moteur1"></div>
+        <div id="section4" data-begin="0:52"><img src="images/comment/moteurs-4.png" alt="moteur1"></div>
+        <div id="section5" data-begin="1:04"><img src="images/comment/moteurs-5.png" alt="moteur1"></div>
+        <div id="section6" data-begin="1:21"><img src="images/comment/moteurs-6.png" alt="moteur1"></div>
+        <div id="section7" data-begin="1:35"><img src="images/comment/moteurs-7.png" alt="moteur1"></div>
+        <div id="section8" data-begin="1:44"><img src="images/comment/moteurs-8.png" alt="moteur8"></div>
+        <div id="section9" data-begin="1:52"><img src="images/comment/moteurs-9.png" alt="moteur9"></div>
+	</div>  <!-- id="media" -->
+
+	<div id="timeline">
+		<div id="mediaStart" class="play">
+			<button class="pause"><img src="../../js/images/media-pause.png" alt="pause"></button>
+			<button class="play"><img src="../../js/images/media-play.png" alt="play"></button>
+		</div>
+		<div id="mediaTimeline">
+			<a href="#section1" style="width: 140px; background-color: #2cb3ec;"><span>0:00 =&gt; 0:35</span></a>
+			<a href="#section2" style="width: 36px; background-color: #958b5f;"><span>0:35 =&gt; 0:44</span></a>
+			<a href="#section3" style="width: 32px; background-color: #efa8a8;"><span>0:44 =&gt; 0:52</span></a>
+			<a href="#section4" style="width: 48px; background-color: #ed8484;"><span>0:52 =&gt; 1:04</span></a>
+			<a href="#section5" style="width: 68px; background-color: #ed5a5a;"><span>1:04 =&gt; 1:21</span></a>
+			<a href="#section6" style="width: 56px; background-color: #ec2c2c;"><span>1:21 =&gt; 1:35</span></a>
+			<a href="#section7" style="width: 36px; background-color: #ed8484;"><span>1:35 =&gt; 1:44</span></a>
+			<a href="#section8" style="width: 32px; background-color: #958b5f;"><span>1:44 =&gt; 1:52</span></a>
+			<a href="#section9" style="width: 116px; background-color: #2cb3ec;"><span>1:52 =&gt; 2:21</span></a>
+		</div>
+		<div id="timeCursor"><span></span></div>
+			<div id="timeValue"><span>0:00</span></div>
+		</div>
+		<audio id="audioPlayer" controls preload="auto">
+			<source src="images/comment/comment.ogg" type="audio/ogg" />
+			<source src="images/comment/comment.mp3" type="audio/mp3" />
+			<br>
+			This page requires <strong>&lt;audio&gt;</strong> support:<br>
+			best viewed with Firefox 3.5+, Safari 4+, Chrome 5+, Opera 10.60+ or IE9.<br>
+			<br>
+			Internet Explorer users, please enable Flash or Silverlight.
+		</audio>
+	</div>  <!-- id="timeline" -->
+	<p class="menu">
+		<button id="first" title="first section">        «     </button>
+		<button id="prev"  title="previous section"> &lt; préc </button>
+		<button id="next"  title="next section">     suiv &gt; </button>
+		<button id="last"  title="last section">         »     </button>
+	</p>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+body {
+	font-size: 10pt;
+	background-attachment: fixed;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	margin:0px;
+	}
+
+.menugauche {
+	visibility:hidden;
+}
+
+.invisible {
+display:none;
+}

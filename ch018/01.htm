@@ -1,0 +1,185 @@
+<html>
+<head>
+<title>Représentation de l'ordinateur</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="../../styleisnd.css" type="text/css">
+<script language="JavaScript">
+function popup(file, haut) {
+msg=window.open(file,"msg","height="+haut+",width=400,left=0,top=0");
+msg.focus();
+}
+
+/*
+SCRIPT EDITE SUR L'EDITEUR JAVASCRIPT
+http://www.editeurjavascript.com
+*/
+Modif = new Date(document.lastModified);
+Jour = new Array;
+Jour[0] = "Dimanche";
+Jour[1] = "Lundi";
+Jour[2] = "Mardi";
+ Jour[3] = "Mercredi";
+Jour[4] = "Jeudi";
+Jour[5] = "Vendredi";
+Jour[6] = "Samedi";
+Mois = new Array;
+Mois[0] = "Janvier" ;
+Mois[1] = "F&eacute;vrier" ;
+Mois[2] = "Mars" ;
+Mois[3] = "Avril";
+Mois[4] = "Mai" ;
+Mois[5] = "Juin" ;
+Mois[6] = "Juillet" ;
+Mois[7] = "Ao&ucirc;t";
+Mois[8] = "Septembre";
+Mois[9] = "Octobre";
+Mois[10] = "Novembre";
+Mois[11] ="D&eacute;cembre";
+DateModif = " " + Jour[Modif.getDay()] + " " + Modif.getDate() + " " + Mois[Modif.getMonth()] + " " +  Modif.getFullYear();
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" background="../images/1.gif">
+<table width="650" border="0" cellspacing="10" align="center">
+  <tr> 
+    <td valign="top" align="center" class="Titre" colspan="3"> 
+      <h2>Une histoire, pour commencer</h2>
+    </td>
+  </tr>
+  <tr> 
+    <td width="34" valign="top" align="center"><img src="../../images/write0d.gif" width="32" height="32" align="top" name="Image1"></td>
+    <td colspan="2"> 
+      <p>Lundi matin, 8h30... &agrave; peine &eacute;veill&eacute;, le week-end 
+        a &eacute;t&eacute; dur... Le professeur arrive en classe et annonce le 
+        sujet du travail de recherche &agrave; remettre pour 10h00, dernier d&eacute;lai.</p>
+      <p>Pour trouver des informations rapidement, vous d&eacute;cidez que l'Internet 
+        est le meilleur endroit. Direction: la biblioth&egrave;que, s'emparer 
+        de l'ordinateur et foncer sur un moteur de recherche. Vous commencez &agrave; 
+        taper une s&eacute;rie de mots clefs au clavier.</p>
+      <p>Le r&eacute;sultat arrive rapidement&nbsp;: 369&nbsp;000 ressources disponibles 
+        pour votre recherche. Vous commencez &agrave; les parcourir...</p>
+      <hr>
+      <form method="post" action="">
+        <h4>Ressource num&eacute;ro 1</h4>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="*">Le titre est prometteur, c'est vraiment ce que vous 
+              cherchez. Clic et... </td>
+            <td width="100">
+              <input type="button" name="Submit" value="Resultat" onClick="alert('bang ! Quand vous essayez de vous connecter, un message d\'erreur vous informe que le serveur est hors service. La ressource est inaccessible.')">
+            </td>
+          </tr>
+        </table>
+        <h4>Ressource num&eacute;ro 2</h4>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="*">A nouveau, le titre semble bon. , Vous arrivez sur le 
+              site...</td>
+            <td width="100"> 
+              <input type="button" name="Submit2" value="Resultat" onClick="alert('Il s\'av&egrave;re qu\'il s\'agit d\'un document &eacute;manant de la classe de deuxi&egrave;me primaire de l\'&eacute;cole communale de Trifouilly-les-Oies. Bon...')">
+            </td>
+          </tr>
+        </table>
+        <h4>Ressource num&eacute;ro 3</h4>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="*">Vous arrivez sur un grand site, avec de nombreux liens, de nombreux fichiers. Les informations que vous cherchez doivent &ecirc;tre quelque part. </td>
+            <td width="100"> 
+              <input type="button" name="Submit22" value="Resultat" onClick="alert('Une demi-heure plus tard vous &ecirc;tes encore en train de la chercher. Ce site est si vaste que vous avez besoin d\'une carte (et d\'une boussole) pour vous y retrouver... mais il n\'y en n\'a pas et vous ne voyez que des impasses et des culs-de sac. Vous laissez tomber.')">
+            </td>
+          </tr>
+        </table>
+        <h4>Ressource num&eacute;ro 4</h4>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="*">L&agrave; nous arrivons quelque part - la table des 
+              mati&egrave;res para&icirc;t all&eacute;chante : mais... </td>
+            <td width="100"> 
+              <input type="button" name="Submit222" value="Resultat" onClick="alert('Petit probl&egrave;me: il n\'y a que la table des mati&egrave;res. Le site est &quot;en construction&quot; et l\'information n\'est pas encore pr&ecirc;te. ')">
+            </td>
+          </tr>
+        </table>
+        <h4>Ressource num&eacute;ro 5</h4>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="*">Cette fois, cela semble bien. Il y a page apr&egrave;s 
+              page, des faits, des chiffres. </td>
+            <td width="100"> 
+              <input type="button" name="Submit223" value="Resultat" onClick="alert('Le seul probl&egrave;me est qu\'aucun d\'eux n\'est exact. Soit ils ont &eacute;t&eacute; saisis par quelqu\'un d\'incapable, soit quelqu\'un ici essaie de nous tromper.')">
+            </td>
+          </tr>
+        </table>
+        <h4>Ressource num&eacute;ro 6</h4>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="*">Parfait. Il y a un lien vers le rapport pr&eacute;cis 
+              dont vous avez besoin. Vous y &ecirc;tes presque, vous jubilez. 
+            </td>
+            <td width="100"> 
+              <input type="button" name="Submit2232" value="Resultat" onClick="alert('Zut, pour t&eacute;l&eacute;charger ce rapport, vous avez besoin d\'un logiciel sp&eacute;cifique et -devinez quoi ?- vous n\'avez pas ce logiciel sur l\'ordinateur. Vous ne ramenez qu\'une s&eacute;rie de signes cabalistiques incompr&eacute;hensibles.')">
+            </td>
+          </tr>
+        </table>
+        <h4>Ressource num&eacute;ro 7</h4>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="*">Elle est &eacute;crite par une personne que vous connaissez 
+              et elle semble correspondre &agrave; ce dont vous avez besoin. Puis 
+              vous regardez la date dans le coin...</td>
+            <td width="100"> 
+              <input type="button" name="Submit22322" value="Resultat" onClick="alert('Le site n\'a pas &eacute;t&eacute; mis &agrave; jour depuis deux ans. Beaucoup d\'&eacute;v&eacute;nements se sont pass&eacute;s depuis, les choses ont chang&eacute;. Laissez tomber, ce sont de vieilles informations.')">
+            </td>
+          </tr>
+        </table>
+        <h4> Ressource num&eacute;ro 8</h4>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="*">Cela pourrait &ecirc;tre utile. Quelqu'un a rassembl&eacute; 
+              des tas d'informations sur tout l'internet et les a mises sur son 
+              site.</td>
+            <td width="100"> 
+              <input type="button" name="Submit22323" value="Resultat" onClick="alert('Peut-on s\'y fier ? Ont-elles &eacute;t&eacute; recopi&eacute;es fid&egrave;lement ?')">
+            </td>
+          </tr>
+        </table>
+        <h4>Ressource num&eacute;ro 9</h4>
+        <table width="100%" border="0" cellspacing="0" cellpadding="0">
+          <tr> 
+            <td width="*">Ahurissant - il est dit que c'est une encyclop&eacute;die</td>
+            <td width="100"> 
+              <input type="button" name="Submit223232" value="Resultat" onClick="alert('Mais les images douteuses pr&eacute;sent&eacute;es sur le site n\'ont aucun rapport avec le th&egrave;me de votre recherche.')">
+          
+            </td>
+          </tr>
+        </table>
+        Il ne reste plus que 368 991 ressources &agrave; consulter ... Il est 
+        l'heure de rendre le travail achev&eacute;.
+</form>
+      <h4>&nbsp;</h4>
+      <p class="micro">(inspir&eacute; de<a href="http://www.desire.org/detective/detective-fr.html" target="_blank" class="micro"> 
+        http://www.desire.org/detective/detective-fr.html</a>)</p>
+    </td>
+  </tr>
+  <tr> 
+    <td width="48" valign="top" align="center">&nbsp;</td>
+    <td colspan="2"> 
+      <hr>
+      <table width="100%" border="0">
+        <tr> 
+          <td width="*"> Quand tu as parcouru les 368 991 autres r&eacute;f&eacute;rences, 
+            poursuis &agrave; la page suivante</td>
+          <td width="30"><a href="02.htm"><img src="../../images/bbnext.gif" width="30" height="27" border="0"></a></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <tr>
+    <td width="48" valign="top" align="center">&nbsp;</td>
+    <td colspan="2" class="micro">Derni&egrave;re modification 
+      <script language="JavaScript">document.write(DateModif)</script>
+    </td>
+  </tr>
+</table>
+<div id="Layer1" style="position:absolute; width:33px; height:11px; z-index:1; left: 8px; top: 157px; border: 1px none #000000; visibility: hidden; overflow: hidden"><a href="http://www.ovh.net?compte=9366"><img src="http://www.ovh.net/cgi-bin/compteur.pl?compte=9366&full=1&url=<!--#echo var='HTTP_REFERER'-->" hspace="0" vspace="0" border="0"></a></div>
+</body>
+</html>

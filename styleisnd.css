@@ -1,0 +1,59 @@
+.Titre { font-size: 24pt; background-color: #3838FF; font-weight: bold; color: #000000}
+.Objectifs_etc { font-size: 14pt; color: #0000FF; font-weight: bold; font-style: italic}
+a:hover {
+		background-color: #FFFF00
+}
+.exposant {vertical-align: text-top}
+.menu {color: #3333FF; background-color: #FFFFCC}
+body {
+	font-size: 10pt;
+	font-style: normal;
+	font-weight: normal;
+	list-style-type: none;
+	list-style-position: outside;
+	color: #000000;
+	background-attachment: fixed;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0px	
+}
+a {
+	color: #0033FF;
+}
+strong { background-color: #FFFF99}
+td { font-size: 10pt;
+	 color: #000000}
+h4 { color: #3333FF}
+h2 {
+	font-size: 16pt;
+	background-color: #3838FF;
+	color: #FFFFFF;
+}
+h3 { color: #FFFFFF; background-color: #3838FF}
+h1 {
+	font-size: 18pt;
+	color: #FFFFFF;
+	background-color: #3838FF;
+	text-align: center;
+}
+.micro { font-size: 8pt; color: #3333FF}
+.detail { font-size: 8pt; font-style: italic; background-color: #CCCCFF}
+.lien {  background-color: #FFFFFF}
+.exp {
+	height: auto;
+	top: auto;
+	vertical-align: superexposant;
+}
+.question {
+	font-weight: normal;
+	color: #0033FF;
+	font-style: italic;
+
+}
+.reponse {
+	color: #FF6600;
+	font-style: italic;
+
+}
+.scrollbar {
+	background-color: #0099FF;
+}

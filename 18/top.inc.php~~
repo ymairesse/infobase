@@ -1,0 +1,6 @@
+<?php
+// Nombre total de pages du chapitre
+$nbpages=18;
+$titre="Sécurité informatique";
+include ("../../menu.inc.php");
+?>

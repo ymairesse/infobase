@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Audio Slideshow with jPlayer</title>
+		<script type="text/javascript" src="../../js/jquery.js"></script>
+		<link rel="stylesheet" type="text/css" href="../../js/jplayer/jplay.css" />
+		<script type="text/javascript" src="../../js/jplayer/jquery.jplayer.js"></script>
+		<script type="text/javascript" src="../../js/jplayer/jquery.audioslideshow.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#audio-slideshow').audioSlideshow();
+			});
+		</script>
+    </head>
+    <body>
+		<section>
+			<div id="audio-slideshow" class="audio-slideshow" data-audio="images/ip/01.mp3" data-audio-duration="171">
+				<div class="audio-slides">
+					<img src="images/ip/ip0.png" alt="img" data-thumbnail="images/ip/tb/ip0.png" data-slide-time="0">
+					<img src="images/ip/ip1.png" alt="img" data-thumbnail="images/ip/tb/ip1.png" data-slide-time="20">
+					<img src="images/ip/ip2.png" alt="img" data-thumbnail="images/ip/tb/ip2.png" data-slide-time="30">
+					<img src="images/ip/ip3.png" alt="img" data-thumbnail="images/ip/tb/ip3.png" data-slide-time="52">
+					<img src="images/ip/ip4.png" alt="img" data-thumbnail="images/ip/tb/ip4.png" data-slide-time="65">
+					<img src="images/ip/ip5.png" alt="img" data-thumbnail="images/ip/tb/ip5.png" data-slide-time="74">
+					<img src="images/ip/ip6.png" alt="img" data-thumbnail="images/ip/tb/ip6.png" data-slide-time="102">
+					<img src="images/ip/ip7.png" alt="img" data-thumbnail="images/ip/tb/ip7.png" data-slide-time="120">
+					<img src="images/ip/ip8.png" alt="img" data-thumbnail="images/ip/tb/ip8.png" data-slide-time="140">
+					<img src="images/ip/ip9.png" alt="img" data-thumbnail="images/ip/tb/ip9.png" data-slide-time="150">
+				</div>
+				<div class="audio-control-interface">
+					<div class="play-pause-container">
+						<a href="javascript:;" class="audio-play">Play</a>
+						<a href="javascript:;" class="audio-pause">Pause</a>
+					</div>
+					<div class="time-container">
+						<span class="play-time"></span> / <span class="total-time"></span>
+					</div>
+					<div class="timeline">
+						<div class="timeline-controls"></div>
+						<div class="playhead"></div>
+					</div>
+					<div class="jplayer"></div>
+				</div>
+			</div>
+		</section>
+    </body>
+</html>
